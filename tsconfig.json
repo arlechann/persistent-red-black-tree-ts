@@ -3,6 +3,9 @@
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
     "target": "es2019",
     "module": "es2015",
+    "lib": [
+      "es2019"
+    ],
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "rootDir": "./src",

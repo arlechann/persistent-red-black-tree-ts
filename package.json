@@ -1,20 +1,24 @@
 {
-  "name": "red-brack-tree-ts",
+  "name": "persistent-red-brack-tree-ts",
   "version": "1.0.0",
-  "description": "Red Brack Tree",
+  "description": "Persistent Red Brack Tree",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\"}' mocha --require ts-node/register src/test/**/*.ts"
+    "test": "TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\"}' mocha --require ts-node/register src/test/**/*.test.ts"
   },
   "author": "arlechann",
   "license": "CC0-1.0",
   "devDependencies": {
     "@types/chai": "^4.2.21",
+    "@types/graphviz": "^0.0.33",
     "@types/mocha": "^9.0.0",
     "@types/node": "^16.7.10",
+    "@types/seedrandom": "^3.0.1",
     "chai": "^4.3.4",
+    "graphviz": "^0.0.9",
     "mocha": "^9.1.1",
+    "seedrandom": "^3.0.5",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.2"
   }
